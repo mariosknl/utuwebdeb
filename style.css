@@ -12,9 +12,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color:white;
+  color: white;
 }
-
 
 .left {
   position: relative;
@@ -24,7 +23,7 @@ nav {
   align-items: center;
 }
 
-.icon{
+.icon {
   cursor: pointer;
 }
 #logo {
@@ -38,7 +37,7 @@ nav {
   display: flex;
 }
 
-.center > button{
+.center > button {
   background: none;
   border: none;
   color: white;
@@ -60,95 +59,100 @@ nav {
 
 /*Main section*/
 
-
-.videoContainer{
-   width: 60%;
-   height: 500px;
-   min-height:315px;
-   position: relative;
-   margin: 20px;
-   background: green;
+.videoContainer {
+  width: 60%;
+  height: 500px;
+  min-height: 315px;
+  position: relative;
+  margin: 20px;
+  background: green;
 }
 
-.videoContainer > iframe{
+.videoContainer > iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
 
-.details{
+.details {
   /*background: red;*/
-  height:70px;
+  height: 70px;
   width: 60%;
-  min-width:300px;
-  float:left;
+  min-width: 300px;
+  float: left;
   margin: -10px 20px;
   color: #333333;
 }
 
-
-
-.titles{
+.titles {
   /*background: blue;*/
   float: left;
 }
 
-.titles > h3,h4
-{
+.titles > h3,
+h4 {
   padding: 5px;
 }
 
-.socialIcons{
+.socialIcons {
   /*background: cadetblue;*/
   float: right;
   width: 40%;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-evenly;
 }
 
-
 /*Channel info*/
-.channelInfo{
+.channelInfo {
   /*background: lightgreen;*/
   width: 60%;
   height: 80px;
-  display:block;
+  display: block;
   margin: 90px 20px;
   border-top: 1px solid #333333;
   padding: 10px;
 }
 
-.channel{
+.channel {
   float: left;
   width: 70%;
 }
 
-.avatar{
+.avatar {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background: blue;
   float: left;
-  margin-right:10px;
+  margin-right: 10px;
   overflow: hidden;
 }
 
-.avatar img{
+.avatar img {
   width: 100%;
 }
 
-#subs{
+#subs {
   float: right;
   background: red;
   color: white;
-  border:none;
+  border: none;
   padding: 10px;
-
 }
 
+aside {
+  /*background: red;*/
+  width: 30%;
+  position: absolute;
+  top: 9%;
+  left: 65%;
+}
+.sidebar > img {
+  width: 80%;
+}
 
-
-
-
+aside {
+  font-size: 0.9rem;
+  text-align: center;
+}
