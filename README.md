@@ -3,7 +3,7 @@
 
 
 We clone the youtube page,you could see live demo here: 
-https://raw.githack.com/mariosknl/utuwebdeb/finalDetails/index.html
+https://raw.githack.com/mariosknl/utuwebdeb/master/index.html
 
 The technologies that we use:
 
